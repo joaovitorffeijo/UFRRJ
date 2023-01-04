@@ -1,0 +1,23 @@
+Voto invalido: 8
+Voto invalido: 9
+
+Numero de votantes: 30
+Numero de votos validos: 28
+Numero de votos invalidos: 2
+
+Candidato Num de votos
+
+Marcos Santos        4
+Sandra Lopes         2
+Bianca Alves         6
+Pedro Cabral         4
+Abel Moraes          6
+Roberto Manoel       3
+Teresa Duarte        3
+
+Candidato(s) eleitos(s)
+ Bianca Alves
+ Abel Moraes
+
+Candidato(s) menos votado(s)
+ Sandra Lopes

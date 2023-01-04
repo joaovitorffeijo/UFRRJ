@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 4</title>
+</head>
+<body>
+    <h1>Web 1</h1> <br>
+
+    <script>
+        var a = document.getElementsByTagName("h1")[0];
+        
+        a.addEventListener("click", clicar);
+        function clicar() {
+            a.innerText = "João";
+        }
+
+        a.addEventListener("mouseenter", entrou);
+        function entrou() {
+            a.style.background = "black";
+            a.style.color = "white";
+        }
+
+        a.addEventListener("mouseout", saiu);
+        function saiu() {
+            a.style.background = "white";
+            a.style.color = "black";
+        }
+    </script>
+</body>
+</html>

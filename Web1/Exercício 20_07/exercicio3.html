@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 3</title>
+</head>
+<body>
+    <img src="./download.jpg" onmouseenter="sobre()">
+    <div id="mensagem">Coloque o mouse sobre a imagem!</div>
+
+    <script>
+        function sobre() {
+            a = document.getElementById("mensagem");
+            a.innerText = navigator.cookieEnabled;
+        }
+    </script>
+</body>
+</html>

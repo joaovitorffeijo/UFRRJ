@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercícios 1 e 2</title>
+</head>
+<body>
+    <h1 onmouseenter="entrou()" onclick="clicar()" onmouseout="saiu()">Web 1</h1> <br>
+
+    <script>
+        function clicar() {
+            var a = document.getElementsByTagName("h1")[0];
+            a.innerText = "João";
+        }
+
+        function entrou() {
+            var a = document.getElementsByTagName("h1")[0];
+            a.style.background = "black";
+            a.style.color = "white";
+        }
+
+        function saiu() {
+            var a = document.getElementsByTagName("h1")[0];
+            a.style.background = "white";
+            a.style.color = "black";
+        }
+    </script>
+</body>
+</html>

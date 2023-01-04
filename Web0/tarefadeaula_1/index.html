@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+</head>
+<body>
+    <form>
+        <table border="1"><tr><td>
+            <h3>&nbsp;Faça:</h3>
+            <ol>
+                <li>Preencha com informações sobre você.</li>
+                <li>Escolha uma opção (pelo menos) de fruta e de hobby.</li>
+                <li>Escreva sobre você.</li>
+            </ol>
+        <table>
+            <tr> 
+                <td>
+                    <label>Nome: <br><input type="text" name="nome"><br></label> <!-- Por que utilizamos a "name"? -->
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Data de nascimento: <br><input type="date" name="data_nascimento"><br></label>
+                </td>
+                <td>
+                    <label>Sexo: <br></label>
+                    <label><input type="radio" name="masc"> Masculino</label>
+                    <label><input type="radio" name="fem">Feminino</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <label>Frutas que você gosta: 
+                        <table border="1">
+                            <tr>
+                                <td>
+                                    <label><input type="checkbox" name="mamao"> Mamão </label>
+                                    <label><input type="checkbox" name="laranja"> Laranja </label>
+                                    <label><input type="checkbox" name="abacate"> Abacate </label><br>
+                                    <label><input type="checkbox" name="abacaxi"> Abacaxi </label>
+                                    <label><input type="checkbox" name="maca"> Maçã </label>
+                                    <label><input type="checkbox" name="morango"> Morango </label>
+                                </td>
+                            </tr>    
+                        </table>
+                    </label>
+                </td>
+            </tr>
+        <tr>
+            <td>
+                <label>Fale sobre você:<br><textarea name="sobre" rows="5" cols="33"></textarea></label><br>
+            </td>
+            <td>
+                <label>
+                    Gosta de falar sobre você?<br> 
+                    <select name="opcao">
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                    </select>
+                </label><br>
+                <label>
+                    Hobbies<br>
+                    <select name="hobbies" multiple>
+                        <option value="correr">Correr</option>
+                        <option value="nadar">Nadar</option>
+                        <option value="tenis">Tênis</option>
+                        <option value="futebol">Futebol</option>
+                        <option value="dancar">Dançar</option>
+                        <option value="musica">Música</option>
+                    </select>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Usuário: <br><input type="text" name="login"></label><br>
+                <label>Senha: <br><input type="password" name="senha"></label><br><br>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </td>
+        </tr>
+        </table>
+        </td></tr></table>
+    </form>
+</body>
+</html>
